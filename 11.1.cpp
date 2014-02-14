@@ -9,18 +9,18 @@ template <typename T>
 int firstOccuranceOfK(const int k, const vector<T>& A){
 
     int left = 0;
-	int right = A.size()-1;
+	int right = A.size()-1; 
 	int found = -1;
 
 	while(left <= right){
-		int mid = (right + (right - left)/2);
+		int mid = (left + (right - left)/2);
 
 		if(A[mid] < k){
 			left = mid + 1;
 		} else if (A[mid] == k){
 			if (found == -1) found = mid;
-			else found = (mid < found) ? mid : found; 
-			right = mid;
+			else found = (mid < found)? mid : found; 
+			right = mid - 1;
 		} else {
 			right = mid - 1;
 		} 
