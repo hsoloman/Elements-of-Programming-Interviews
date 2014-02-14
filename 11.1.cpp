@@ -40,7 +40,5 @@ int main()
     cout<< "first occurance of 2: \t\tA[" << firstOccuranceOfK(2, A) << "]" << endl;
     cout<< "first occurance of 500: \tA[" << firstOccuranceOfK(500, A) << "]" << endl;
 
-	char a(0);
-	cin >> a;
 	return 0;
 }
