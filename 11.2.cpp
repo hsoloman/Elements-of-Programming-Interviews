@@ -34,5 +34,5 @@ int main()
     cout<< "first occurance larger than 2: \t\tA[" << firstOccuranceLargerThanK(2, A) << "]" << endl;
     cout<< "first occurance larger than 500: \tA[" << firstOccuranceLargerThanK(500, A) << "]" << endl;
 
-	return 0;
+    return 0;
 }
