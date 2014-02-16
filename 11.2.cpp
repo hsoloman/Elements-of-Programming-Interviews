@@ -29,6 +29,7 @@ int main()
 {
     vector<int> A = {-14, -10, 2, 108, 108, 243, 285, 285, 285, 401};
     cout<< "first occurance larger than -14: \tA[" << firstOccuranceLargerThanK(-14, A) << "]" << endl;
+    cout<< "first occurance larger than 101: \tA[" << firstOccuranceLargerThanK(101, A) << "]" << endl;
     cout<< "first occurance larger than 108: \tA[" << firstOccuranceLargerThanK(108, A) << "]" << endl;
     cout<< "first occurance larger than 285: \tA[" << firstOccuranceLargerThanK(285, A) << "]" << endl;
     cout<< "first occurance larger than 2: \t\tA[" << firstOccuranceLargerThanK(2, A) << "]" << endl;
