@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// returns index of minimum element in a cyclically sorted array
+// returns index of value k in a cyclically sorted array
 // returns -1 if not found
 int indexOfK(const vector<int>& A, int k){
     int left(0), right(A.size() -1);
